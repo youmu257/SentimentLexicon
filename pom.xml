@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ncku.ikm</groupId>
+  <artifactId>sentiment_lexicon</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>sentiment_lexicon</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/edu.mit/jwi -->
+	<dependency>
+	    <groupId>edu.mit</groupId>
+	    <artifactId>jwi</artifactId>
+	    <version>2.2.3</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/edu.cmu.cs/ark-tweet-nlp -->
+	<dependency>
+	    <groupId>edu.cmu.cs</groupId>
+	    <artifactId>ark-tweet-nlp</artifactId>
+	    <version>0.3.2</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
+	<dependency>
+	    <groupId>edu.stanford.nlp</groupId>
+	    <artifactId>stanford-corenlp</artifactId>
+	    <version>3.6.0</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.5</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/me.shib.java.lib/diction -->
+	<dependency>
+	    <groupId>me.shib.java.lib</groupId>
+	    <artifactId>diction</artifactId>
+	    <version>0.1.0</version>
+	</dependency>
+    
+  </dependencies>
+  
+</project>
