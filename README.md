@@ -2,7 +2,7 @@
 ## Introduction
 This project generate a sentiment lexicon which contains positive and negative dimension by few seed words for specified domain.
 
-##Run Step
+## Run Step
 You only import project to eclipse and run Main.java.
 
 ## Environment
